@@ -3,35 +3,35 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "b53aae14e2d180fd2f824b5027525cff",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b46b77356825cb4e1aec8901e0d27fe6",
+  "https://nibltaov.github.io/start/assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
+"https://nibltaov.github.io/start/assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"https://nibltaov.github.io/start/assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"https://nibltaov.github.io/start/assets/NOTICES": "b53aae14e2d180fd2f824b5027525cff",
+"https://nibltaov.github.io/start/canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"https://nibltaov.github.io/start/canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"https://nibltaov.github.io/start/canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"https://nibltaov.github.io/start/canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"https://nibltaov.github.io/start/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"https://nibltaov.github.io/start/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"https://nibltaov.github.io/start/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"https://nibltaov.github.io/start/icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+"https://nibltaov.github.io/start/icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+"https://nibltaov.github.io/start/index.html": "b46b77356825cb4e1aec8901e0d27fe6",
 "/": "b46b77356825cb4e1aec8901e0d27fe6",
-"main.dart.js": "35bbbfb6ac17df242c88a6de4f49bf69",
-"manifest.json": "e56069d4ebb563e493d15a5ea37c8b4c",
-"version.json": "af238e6e35c0dbc4e6d7093ce65205e9"
+"https://nibltaov.github.io/start/main.dart.js": "35bbbfb6ac17df242c88a6de4f49bf69",
+"https://nibltaov.github.io/start/manifest.json": "e56069d4ebb563e493d15a5ea37c8b4c",
+"https://nibltaov.github.io/start/version.json": "af238e6e35c0dbc4e6d7093ce65205e9"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
   "/",
-"main.dart.js",
+"https://nibltaov.github.io/start/main.dart.js",
 "index.html",
-"assets/NOTICES",
-"assets/AssetManifest.json",
-"assets/FontManifest.json"];
+"https://nibltaov.github.io/start/assets/NOTICES",
+"https://nibltaov.github.io/start/assets/AssetManifest.json",
+"https://nibltaov.github.io/start/assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
